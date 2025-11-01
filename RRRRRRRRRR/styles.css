@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  background-color: rgb(244, 169, 116);
+  padding-top: 30px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.headerUl {
+  display: flex;
+  background-color: gray;
+  border: 2px solid rgb(255, 85, 0);
+}
+
+.headerUl li {
+  list-style-type: none;
+  padding: 20px;
+  color: white;
+}
+.headerUl li:hover {
+  background-color: white;
+  color: black;
+}
+
+.lastLi {
+  background-color: rgb(255, 85, 0);
+  color: black;
+}
